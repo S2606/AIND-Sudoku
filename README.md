@@ -12,10 +12,3 @@ A:  1)First the units containing naked twins are identified.
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
 A:  1)First identify boxes belonging to the two diagonal units.
     2)Then in eliminate(), naked_twins() and only_choice() strategies we consider the two diagonal units along with row, column, square units as part of constraint propagation for solving the diagonal sudoku problem.
-
-### Code
-
-* `solution.py` - You'll fill this in as part of your solution.
-* `solution_test.py` - Do not modify this. You can test your solution by running `python solution_test.py`.
-* `PySudoku.py` - Do not modify this. This is code for visualizing your solution.
-* `visualize.py` - Do not modify this. This is code for visualizing your solution.
